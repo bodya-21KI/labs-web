@@ -1,3 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bogle&display=swap');
+
+:root{
+    --color-background: #494747;
+    --color-text: #fff;
+}
+
 .head{color: blue;}
 .title{color: red;}
 .knopka{color: rgb(252, 252, 3);}
+.background_color{
+    background-color:var(--color-background);
+    font-family:"BBH Bogle";
+    color: var(--color-text);
+}
+.background_color_img{
+    background:url(/img/nature-background-nature-wallpaper-sunlit-green-rolling-hills-nestled-between-dramatic-dark-mountain-valleys-under-a-soft-gradient-sky-photo-2293528533.jpg) no-repeat center center;
+    background-size:cover;
+    font-family: "Playwrite AU SA Guides", cursive;
+    color: var(--color-text)
+}
